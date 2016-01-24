@@ -1,47 +1,77 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# SR Travis-CI Files #
+######################
+/.travis.yml
 
-# Folder config file
-Desktop.ini
+# SR Markdown Files  #
+######################
+/contributing.md
+/README.md
+/README.txt
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#  SR User Related   #
+######################
+/*.db*
+/*.ini
+/cache/
+/Logs/
+/data/
+/restore/
+/backup*/
+/autoProcessTV.cfg
+/server.crt
+/server.key
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+#  SR Test Related   #
+######################
+/tests/*.db*
+/tests/*.ini
+/tests/Logs/
+/tests/cache/
+/tests/data/
+/tests/restore/
+/tests/backup*/
+/tests/server.crt
+/tests/server.key
 
-# Windows shortcuts
-*.lnk
+#  Compiled source   #
+######################
+*.py[co]
 
-# =========================
-# Operating System Files
-# =========================
+#  IDE specific      #
+######################
+*.bak
+*.tmp
+*.wpr
+*.project
+*.pydevproject
+*.cproject
+*.tmproj
+*.tmproject
+*.sw?
+Session.vim
+.ropeproject/*
+.idea
+*.ipr
+.settings/*
+.pypirc
+/dist
+/build
+/sickrage.egg-info
 
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
+# OS generated files #
+######################
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
+.DS_Store
+desktop.ini
+ehthumbs.db
+Thumbs.db
+.directory
+*~
+*.torrent
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Bower #
+######################
+bower_components
+node_modules
+_bower.js
